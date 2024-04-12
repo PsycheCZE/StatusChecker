@@ -23,7 +23,7 @@ def start_stop():
 def run_scheduler():
     while running:
         capture_and_upload()
-        time.sleep(30)
+        time.sleep(250)
 
 def capture_and_upload():
     nick = nick_entry.get()
